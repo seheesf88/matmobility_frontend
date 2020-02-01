@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 
 //Routers
 import HomeContainer from './HomeContainer';
+import GoogleMap from './GoogleMap'
 
 const my404 = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
     <main>
       <Switch>
         <Route exact path='/' component={ HomeContainer }/>
+        <Route exact path='/sample' component={ GoogleMap } />
       </Switch>
     </main>
   );
