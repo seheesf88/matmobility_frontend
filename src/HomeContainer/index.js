@@ -10,7 +10,8 @@ class HomeContainer extends Component {
     return(
       <div>
         <h1>Mat Mobility</h1>
-        <Link to="/sample">Check</Link>
+        <li><Link to="/sample">sample1</Link></li>
+        <li><Link to="/sampletwo">sample2</Link></li>
       </div>
     )
   }
